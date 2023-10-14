@@ -11,6 +11,10 @@
 		E22B4BA92ACC9A6000640417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B4BA82ACC9A6000640417 /* ContentView.swift */; };
 		E22B4BAB2ACC9A6100640417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B4BAA2ACC9A6100640417 /* Assets.xcassets */; };
 		E22B4BAE2ACC9A6100640417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B4BAD2ACC9A6100640417 /* Preview Assets.xcassets */; };
+		E23008A22ADAF0AA00648E23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23008A12ADAF0AA00648E23 /* CardView.swift */; };
+		E23008A52ADAF38600648E23 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23008A42ADAF38600648E23 /* CustomBackgroundView.swift */; };
+		E23008A82ADAF56600648E23 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23008A72ADAF56600648E23 /* ColorExtension.swift */; };
+		E23008AA2ADAFD5E00648E23 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23008A92ADAFD5E00648E23 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E22B4BA82ACC9A6000640417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E22B4BAA2ACC9A6100640417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22B4BAD2ACC9A6100640417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E23008A12ADAF0AA00648E23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E23008A42ADAF38600648E23 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		E23008A72ADAF56600648E23 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E23008A92ADAFD5E00648E23 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		E22B4BA52ACC9A6000640417 /* Hike-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E23008A62ADAF53B00648E23 /* Utility */,
 				E22B4BA62ACC9A6000640417 /* Hike_SwiftUIApp.swift */,
 				E22B4BA82ACC9A6000640417 /* ContentView.swift */,
+				E23008A32ADAF33100648E23 /* CComponent */,
 				E22B4BAA2ACC9A6100640417 /* Assets.xcassets */,
 				E22B4BAC2ACC9A6100640417 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				E22B4BAD2ACC9A6100640417 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E23008A32ADAF33100648E23 /* CComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E23008A12ADAF0AA00648E23 /* CardView.swift */,
+				E23008A42ADAF38600648E23 /* CustomBackgroundView.swift */,
+				E23008A92ADAFD5E00648E23 /* CustomButtonView.swift */,
+			);
+			path = CComponent;
+			sourceTree = "<group>";
+		};
+		E23008A62ADAF53B00648E23 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E23008A72ADAF56600648E23 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22B4BA92ACC9A6000640417 /* ContentView.swift in Sources */,
+				E23008A22ADAF0AA00648E23 /* CardView.swift in Sources */,
 				E22B4BA72ACC9A6000640417 /* Hike_SwiftUIApp.swift in Sources */,
+				E23008AA2ADAFD5E00648E23 /* CustomButtonView.swift in Sources */,
+				E23008A52ADAF38600648E23 /* CustomBackgroundView.swift in Sources */,
+				E23008A82ADAF56600648E23 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
